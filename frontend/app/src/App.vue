@@ -1,17 +1,17 @@
 <template>
   <div class="min-h-screen bg-white">
-    <Header />
-    <div class="mt-4">
+    <!-- <Header /> -->
+    <div class="">
       <RouterView />
     </div>
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 
 <script setup>
 import { RouterView } from "vue-router";
-import Header from "./components/Header.vue";
-import Footer from "./components/Footer.vue";
+// import Header from "./components/Header.vue";
+// import Footer from "./components/Footer.vue";
 </script>
 
 <style scoped></style>
